@@ -1,0 +1,121 @@
+/* LoginForm.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F2AB27;
+    /* Cambia el color de fondo a #F2AB27 */
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    display: flex;
+    justify-content: flex-end;
+    /* Alinea el contenido a la derecha */
+    align-items: center;
+    height: 100vh;
+}
+
+.login-form {
+    background-color: white;
+    padding: 10px;
+    /* Reducir el espacio interno del formulario */
+    border-radius: 5px;
+    text-align: left;
+    /* Alinear el texto a la izquierda */
+}
+
+.login-form form {
+    width: 100%;
+}
+
+.login-image {
+    max-width: 50%;
+    /* Ajusta el tamaño de la imagen */
+    margin-right: 20px;
+    /* Espaciado a la derecha de la imagen */
+}
+
+h1 {
+    color: #F2AB27;
+    /* Cambia el color del texto a #F2AB27 */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    background: transparent;
+    /* Elimina los recuadros en los input */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #F2AB27;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #F28729;
+}
+
+.login-image {
+    max-width: 50%;
+    /* Ajusta el tamaño de la imagen */
+    margin-right: 20px;
+    /* Espaciado a la derecha del formulario */
+}
+
+.login-form {
+    background-color: white;
+    padding: 10px;
+    /* Reducir el espacio interno del formulario */
+    border-radius: 5px;
+    text-align: left;
+    /* Alinear el texto a la izquierda */
+}
+
+/* Estilos para los input y las líneas inferiores */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #F2AB27;
+    /* Línea inferior */
+    background: transparent;
+    position: relative;
+}
+
+/* Estilos para los iconos */
+input+.icon {
+    position: absolute;
+    left: 5px;
+    /* Espaciado a la izquierda del icono */
+    top: 50%;
+    transform: translateY(-50%);
+    color: #F2AB27;
+    /* Color del icono */
+}
+
+/* Estilos para el botón */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #F2AB27;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    /* Espaciado superior */
+}
+
+button:hover {
+    background-color: #F28729;
+}
